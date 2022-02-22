@@ -23,11 +23,11 @@
                             <img class="logo__image" src="#" alt="логотип">
                         </div>
                         <ul class="header__navigation navigation-header">
-                            <li><a class="navigation-header__item" href="#">About Us</a></li>
-                            <li><a class="navigation-header__item" href="#">Courses</a></li>
-                            <li><a class="navigation-header__item" href="#">Events</a></li>
-                            <li><a class="navigation-header__item" href="#">Blog</a></li>
-                            <li><a class="navigation-header__item" href="#">Contacts</a></li>
+                            <li class="navigation-header__item"><a class="navigation-header__link" href="#">About Us</a></li>
+                            <li class="navigation-header__item"><a class="navigation-header__link" href="#">Courses</a></li>
+                            <li class="navigation-header__item"><a class="navigation-header__link" href="#">Events</a></li>
+                            <li class="navigation-header__item"><a class="navigation-header__link" href="#">Blog</a></li>
+                            <li class="navigation-header__item"><a class="navigation-header__link" href="#">Contacts</a></li>
                         </ul>
                     </div>
                     <div class="header__interactive">
@@ -168,10 +168,10 @@
                     <h2 class="title__name">That’s how we do it</h2>
                 </div>
                 <ul class="our-benefits__benefits">
-                    <li><a class="our-benefits__tutors button-transparent" href="#">Experienced Tutors</a></li>
-                    <li><a class="our-benefits__support button-transparent" href="#">Feedback & Support</a></li>
-                    <li><a class="our-benefits__library button-transparent" href="#">24/7 Online Library</a></li>
-                    <li><a class="our-benefits__community button-transparent" href="#">Community</a></li>
+                    <li class="our-benefits__item"><a class="our-benefits__tutors button-transparent" href="#">Experienced Tutors</a></li>
+                    <li class="our-benefits__item"><a class="our-benefits__support button-transparent" href="#">Feedback & Support</a></li>
+                    <li class="our-benefits__item"><a class="our-benefits__library button-transparent" href="#">24/7 Online Library</a></li>
+                    <li class="our-benefits__item"><a class="our-benefits__community button-transparent" href="#">Community</a></li>
                 </ul>
                 <div class="our-benefits__body">
                     <div class="our-benefits__information">
@@ -295,14 +295,19 @@
                         <div class="avatar__name">Marvin McKinney</div>
                     </div>
                 </div>
-                <!-- второй раздел -->
-                <div class="best-tutors__title-two title">
+            </div>
+        </div>
+
+        <!-- testimonials -->
+        <div class="testimonials">
+            <div class="testimonials__container">
+                <div class="testimonials__title title">
                     <h3 class="title__subtitle">TESTIMONIALS</h3>
                     <h2 class="title__name">What our students say</h2>
                 </div>
-                <div class="best-tutors__quote">
-                    <p class="best-tutors__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
-                    <div class="best-tutors__personality">Eleanor Pena</div>
+                <div class="testimonials__quote">
+                    <p class="testimonials__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
+                    <div class="testimonials__personality">Eleanor Pena</div>
                 </div>
             </div>
         </div>
@@ -325,9 +330,9 @@
                             <div class="our-blog__chapter">Podcast</div>
                         </div>
                         <ul class="our-blog__date">
-                            <li>Marketing</li>
-                            <li>September 4, 2020</li>
-                            <li>36 min</li>
+                            <li class="our-blog__discipline">Marketing</li>
+                            <li class="our-blog__date">September 4, 2020</li>
+                            <li class="our-blog__time">36 min</li>
                         </ul>
                         <div class="our-blog__theme">What is traffic arbitrage and does it really make money?</div>
                         <p class="our-blog__description">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
@@ -339,9 +344,9 @@
                             <div class="our-blog__chapter">Video</div>
                         </div>
                         <ul class="our-blog__date">
-                            <li>Management</li>
-                            <li>August 25, 2020</li>
-                            <li>45 min</li>
+                            <li class="our-blog__discipline">Management</li>
+                            <li class="our-blog__date">August 25, 2020</li>
+                            <li class="our-blog__time">45 min</li>
                         </ul>
                         <div class="our-blog__theme">What to do and who to talk to if you want to get feedback on the product</div>
                         <p class="our-blog__description">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...</p>
@@ -353,9 +358,9 @@
                             <div class="our-blog__chapter">Article</div>
                         </div>
                         <ul class="our-blog__date">
-                            <li>Design</li>
-                            <li>August 8, 2020</li>
-                            <li>30 min</li>
+                            <li class="our-blog__discipline">Design</li>
+                            <li class="our-blog__date">August 8, 2020</li>
+                            <li class="our-blog__time">30 min</li>
                         </ul>
                         <div class="our-blog__theme">Should you choose a creative profession if you are attracted to creativity?</div>
                         <p class="our-blog__description">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</p>
@@ -391,37 +396,37 @@
                             Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country.
                         </p>
                         <ul class="footer__social-media social">
-                            <li><a class="social__facebook" href="#"></a></li>
-                            <li><a class="social__twitter" href="#"></a></li>
-                            <li><a class="social__youtube" href="#"></a></li>
-                            <li><a class="social__telegram" href="#"></a></li>
-                            <li><a class="social__instagram" href="#"></a></li>
-                            <li><a class="social__linkedin" href="#"></a></li>
+                            <li class="social__item"><a class="social__facebook" href="#"></a></li>
+                            <li class="social__item"><a class="social__twitter" href="#"></a></li>
+                            <li class="social__item"><a class="social__youtube" href="#"></a></li>
+                            <li class="social__item"><a class="social__telegram" href="#"></a></li>
+                            <li class="social__item"><a class="social__instagram" href="#"></a></li>
+                            <li class="social__item"><a class="social__linkedin" href="#"></a></li>
                         </ul>
                     </div>
                     <!-- 2 -->
                     <ul class="footer__navigation navigation-footer">
-                        <li><a class="navigation-footer__title" href="#">SITE MAP</a></li>
-                        <li><a class="navigation-footer__item" href="#">About Us</a></li>
-                        <li><a class="navigation-footer__item" href="#">Courses</a></li>
-                        <li><a class="navigation-footer__item" href="#">Events</a></li>
-                        <li><a class="navigation-footer__item" href="#">Blog</a></li>
-                        <li><a class="navigation-footer__item" href="#">Contacts</a></li>
+                        <li class="navigation-footer__title">SITE MAP</li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">About Us</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Courses</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Events</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Blog</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Contacts</a></li>
                     </ul>
                     <!-- 3 -->
                     <ul class="footer__navigation navigation-footer">
-                        <li><a class="navigation-footer__title" href="#">COURSES</a></li>
-                        <li><a class="navigation-footer__item" href="#">Marketing</a></li>
-                        <li><a class="navigation-footer__item" href="#">Management</a></li>
-                        <li><a class="navigation-footer__item" href="#">HR & Recruting</a></li>
-                        <li><a class="navigation-footer__item" href="#">Design</a></li>
-                        <li><a class="navigation-footer__item" href="#">Development</a></li>
+                        <li class="navigation-footer__title">>COURSES</li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Marketing</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Management</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">HR & Recruting</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Design</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">Development</a></li>
                     </ul>
                     <!-- 4 -->
                     <ul class="footer__navigation navigation-footer">
-                        <li><a class="navigation-footer__title" href="#">CONTACT US</a></li>
-                        <li><a class="navigation-footer__item" href="#">555-0128</a></li>
-                        <li><a class="navigation-footer__item" href="#">hello@createx.com</a></li>
+                        <li class="navigation-footer__title">CONTACT US</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">555-0128</a></li>
+                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#">hello@createx.com</a></li>
                     </ul>
                     <!-- 5 -->
                     <div class="footer__newsletter">
@@ -432,10 +437,10 @@
                 </div>
                 <!-- нижняя часть -->
                 <div class="footer__footer">
-                    <ul class="footer__copyright">
-                        <li>© All rights reserved.</li>
-                        <li>Made with</li>
-                        <li>by Createx Studio </li>
+                    <ul class="footer__copyright copyright-footer">
+                        <li class="copyright-footer__item">© All rights reserved.</li>
+                        <li class="copyright-footer__item">Made with</li>
+                        <li class="copyright-footer__item">by Createx Studio </li>
                     </ul>
                     <a class="footer__up" href="#">GO TO TOP</a>
                 </div>
